@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+prophet
+plotly
+matplotlib
+pandas
+requests
+earthengine-api
+prophet
+tensorflow
+scikit-learn
+sqlalchemy
+

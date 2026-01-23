@@ -1,0 +1,353 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from prophet import Prophet
+import requests
+import json
+from datetime import date, timedelta
+
+# --- Configuration ---
+# You would need a real API key for OpenWeatherMap (or similar) for a production app
+WEATHER_API_KEY = "YOUR_OPENWEATHERMAP_API_KEY"
+WEATHER_LAT_LON = {
+    "Mato Grosso (Soy)": (-12.6657, -55.9904), # Sinop area
+    "Minas Gerais (Coffee)": (-20.7515, -46.5658), # Patrocínio area
+    "Paraná (Corn)": (-24.8988, -52.3768) # Guarapuava area
+}
+
+# --- 1. Data Simulation/Acquisition Functions ---
+
+@st.cache_data
+def load_and_simulate_data(crop, region):
+    """
+    Simulates historical price and weather data based on crop/region characteristics.
+    In a real project, this would be API calls to CEPEA, IBGE, etc.
+    """
+    today = date.today()
+    start_date = today - timedelta(days=5*365) # 5 years of data
+    
+    # Base parameters inspired by real CEPEA/IBGE trends (e.g., higher soy price volatility)
+    if crop == "Soja (Soybean)":
+        base_price = 150.00
+        volatility = 10.0
+        yearly_growth = 0.05
+    elif crop == "Café Arábica (Arabica Coffee)":
+        base_price = 800.00
+        volatility = 50.0
+        yearly_growth = 0.03
+    else: # Milho (Corn)
+        base_price = 60.00
+        volatility = 5.0
+        yearly_growth = 0.04
+
+    dates = pd.to_datetime(pd.date_range(start=start_date, end=today, freq='D'))
+    n_days = len(dates)
+    
+    # Price series with trend, noise, and growth
+    prices = base_price * (1 + yearly_growth * (dates.year - dates.year.min())) + \
+             np.random.normal(0, volatility, n_days) + \
+             volatility * np.sin(dates.dayofyear / 365 * 2 * np.pi) # Simple seasonality
+             
+    prices = np.maximum(prices, base_price * 0.8) # Prevent extreme drops
+    
+    df = pd.DataFrame({'ds': dates, 'y': prices.round(2)})
+    
+    # Simulate weather as a REGRESSOR (for advanced forecasting)
+    # Average rainfall (mm) - a major factor for yield/sale volume
+    avg_rainfall = 5 + 15 * np.sin(dates.dayofyear / 365 * 2 * np.pi) + np.random.normal(0, 3, n_days)
+    df['rainfall_mm'] = np.maximum(avg_rainfall, 0).round(2)
+    
+    return df
+
+@st.cache_data
+def get_current_weather(region):
+    """Simulates real-time weather API call for a selected region."""
+    # In a real app, you would use:
+    # lat, lon = WEATHER_LAT_LON.get(region)
+    # response = requests.get(f"http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={WEATHER_API_KEY}&units=metric&lang=pt")
+    # return response.json()
+    
+    # Mock data for demonstration
+    temp = np.random.randint(20, 35)
+    precip = np.random.choice([0.0, 2.5, 10.0])
+    condition = np.random.choice(["Céu Limpo", "Nublado", "Chuva Forte"])
+    
+    return {
+        "Temperatura Atual": f"{temp}°C",
+        "Precipitação (24h)": f"{precip} mm",
+        "Condição": condition
+    }
+
+# --- 2. Prophet Forecasting Model ---
+
+@st.cache_data(show_spinner=False)
+def run_prophet_forecast(df, periods=365):
+    """Runs the Prophet model to forecast prices."""
+    m = Prophet(
+        seasonality_mode='multiplicative',
+        changepoint_prior_scale=0.05, # Adjust for trend volatility
+        yearly_seasonality=True,
+        weekly_seasonality=False,
+        daily_seasonality=False
+    )
+    
+    # Add external regressor (simulated weather data)
+    m.add_regressor('rainfall_mm')
+    
+    m.fit(df)
+    
+    # Create future dataframe for forecasting
+    future = m.make_future_dataframe(periods=periods)
+    
+    # Simulate future weather (e.g., based on average historical patterns)
+    future_dates = pd.to_datetime(future['ds'])
+    future['rainfall_mm'] = (5 + 15 * np.sin(future_dates.dayofyear / 365 * 2 * np.pi) + np.random.normal(0, 3, len(future))).clip(lower=0).round(2)
+    
+    forecast = m.predict(future)
+    
+    return m, forecast
+
+# --- 3. Streamlit App Interface ---
+
+st.set_page_config(layout="wide", page_title="AgriForecast Insights - Brasil")
+
+# Custom CSS for the mobile-first, clean, Brazilian-theme look
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #f0f8f7; /* Light agricultural background */
+        color: #1e3a24; /* Dark green text */
+    }
+    .main-header {
+        color: #008000; /* Brazil Green */
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .subheader {
+        color: #005600;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 1.1em;
+    }
+    .stSelectbox, .stNumberInput, .stRadio {
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+    .metric-box {
+        background-color: #e0f0e0; /* Light green box */
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+        border-left: 5px solid #008000;
+        font-weight: bold;
+    }
+    .metric-value {
+        font-size: 1.8em;
+        color: #1e3a24;
+    }
+    .metric-label {
+        font-size: 0.9em;
+        color: #555;
+    }
+    .stAlert {
+        border-radius: 10px;
+    }
+    /* Mobile-first adjustment */
+    @media (max-width: 768px) {
+        .main-header { font-size: 1.8em; }
+        .subheader { font-size: 1.0em; }
+        .metric-value { font-size: 1.5em; }
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.markdown('<h1 class="main-header">🌱 AgriForecast Insights</h1>', unsafe_allow_html=True)
+st.markdown('<p class="subheader">Previsão de Preços e Vendas Agrícolas para o Brasil</p>', unsafe_allow_html=True)
+
+# --- Sidebar Inputs (Mimicking Mobile-First Input) ---
+with st.sidebar:
+    st.header("Parâmetros do Produtor")
+    
+    # Dropdowns for crop and region (simulating a simple user flow)
+    crop_choice = st.selectbox(
+        "Selecione a Cultura:",
+        ["Soja (Soybean)", "Milho (Corn)", "Café Arábica (Arabica Coffee)"]
+    )
+    
+    region_choice = st.selectbox(
+        "Selecione a Região:",
+        list(WEATHER_LAT_LON.keys())
+    )
+    
+    forecast_days = st.slider(
+        "Horizonte da Previsão (dias):",
+        min_value=30, max_value=730, value=180, step=30,
+        help="Quantos dias no futuro você quer prever o preço?"
+    )
+    
+    farm_size = st.radio(
+        "Tamanho da Fazenda (para contexto de impacto):",
+        ['Pequena (até 4 módulos fiscais)', 'Grande (acima de 4 módulos fiscais)'],
+        index=0,
+        help="Isto ajusta o tipo de 'alerta' gerado."
+    )
+
+# --- Main Dashboard ---
+
+st.header(f"💰 Previsão de Preço para {crop_choice} em {region_choice}")
+
+# 1. Current Metrics (Simulating Real-time API calls)
+col1, col2, col3, col4 = st.columns(4)
+
+# Fetch Current Weather for the selected region
+current_weather = get_current_weather(region_choice)
+df_historical = load_and_simulate_data(crop_choice, region_choice)
+
+with col1:
+    st.markdown(
+        f"""
+        <div class="metric-box">
+            <div class="metric-label">Preço Atual (R$/unid.)</div>
+            <div class="metric-value">R$ {df_historical['y'].iloc[-1]:.2f}</div>
+        </div>
+        """, unsafe_allow_html=True
+    )
+with col2:
+    st.markdown(
+        f"""
+        <div class="metric-box">
+            <div class="metric-label">Temp. Média (Atual)</div>
+            <div class="metric-value">{current_weather['Temperatura Atual']}</div>
+        </div>
+        """, unsafe_allow_html=True
+    )
+with col3:
+    st.markdown(
+        f"""
+        <div class="metric-box">
+            <div class="metric-label">Precipitação (24h)</div>
+            <div class="metric-value">{current_weather['Precipitação (24h)']}</div>
+        </div>
+        """, unsafe_allow_html=True
+    )
+with col4:
+    st.markdown(
+        f"""
+        <div class="metric-box">
+            <div class="metric-label">Condição Atual</div>
+            <div class="metric-value">{current_weather['Condição']}</div>
+        </div>
+        """, unsafe_allow_html=True
+    )
+
+st.subheader("Análise e Projeção de Tendências")
+
+# 2. Run and Plot Forecast
+with st.spinner(f"Rodando modelo Prophet com dados de clima... ({forecast_days} dias)"):
+    m, forecast = run_prophet_forecast(df_historical, periods=forecast_days)
+
+# Calculate key forecast metrics
+forecast_end = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].iloc[-1]
+price_change_pct = ((forecast_end['yhat'] - df_historical['y'].iloc[-1]) / df_historical['y'].iloc[-1]) * 100
+
+col_graph, col_summary = st.columns([3, 1])
+
+with col_graph:
+    # Plotting with Matplotlib for better control and integration with Streamlit
+    fig1 = m.plot(forecast, xlabel='Data', ylabel='Preço (R$/unidade)', figsize=(10, 6))
+    plt.title(f'Previsão de Preço de {crop_choice}', fontsize=16)
+    plt.xlabel('Data')
+    plt.ylabel('Preço (R$/unidade)')
+    plt.gca().yaxis.set_major_formatter(plt.matplotlib.ticker.StrMethodFormatter('R$ {x:,.2f}'))
+    st.pyplot(fig1)
+
+with col_summary:
+    st.markdown("### Resumo da Projeção")
+    st.markdown(f"""
+    **Preço Projetado em {forecast_days} dias:**
+    - **Valor Central (yhat):** **R$ {forecast_end['yhat']:.2f}**
+    - **Intervalo (80% Confiança):** R$ {forecast_end['yhat_lower']:.2f} a R$ {forecast_end['yhat_upper']:.2f}
+    - **Mudança Prevista:** {'🟢 Aumento' if price_change_pct > 0 else '🔴 Queda'} de **{abs(price_change_pct):.2f}%**
+    """)
+    
+    st.markdown("---")
+    
+    # Interpretive Insight & Alert
+    if price_change_pct > 5:
+        st.success(f"📈 **Alerta de Oportunidade!** O preço de {crop_choice} está projetado para subir. Considere segurar a colheita, se possível. Isto é crítico para **{farm_size}**.")
+    elif price_change_pct < -5:
+        st.error(f"📉 **Alerta Crítico!** O preço de {crop_choice} pode cair significativamente. Analise a venda antecipada (contrato futuro) ou armazene para evitar perdas.")
+    else:
+        st.info("🟡 **Estabilidade Prevista.** O mercado deve se manter estável no período. Foque na otimização de custos e logística.")
+
+# 3. Componentes Extras (Sustentabilidade e Clima)
+st.markdown("---")
+st.subheader("Análise de Risco Climático e Sustentabilidade")
+
+col_rain, col_sim = st.columns(2)
+
+with col_rain:
+    # Plotting the 'Regressors' (Simulating Yield/Sales Volume)
+    df_regressor = forecast[['ds', 'rainfall_mm']].tail(forecast_days)
+    fig_reg = plt.figure(figsize=(10, 4))
+    plt.plot(df_regressor['ds'], df_regressor['rainfall_mm'], label='Precipitação Prevista (mm)', color='blue')
+    plt.title('Projeção de Precipitação (Fator de Vendas/Safra)', fontsize=14)
+    plt.xlabel('Data')
+    plt.ylabel('Precipitação (mm)')
+    plt.grid(True, linestyle='--', alpha=0.6)
+    st.pyplot(fig_reg)
+
+with col_sim:
+    st.markdown("### ☁️ Simulação de Cenário (O que Aconteceria se?)")
+    drought_impact = st.slider(
+        "Simular Impacto de Seca/Estiagem (Redução de Precipitação):",
+        min_value=0, max_value=50, value=0, step=5, format="%d%%"
+    )
+    
+    if drought_impact > 0:
+        st.warning(f"Simulando uma redução de {drought_impact}% na precipitação... Isso historicamente leva a um aumento de 5-15% nos preços, mas uma redução de 10-30% no volume de vendas (rendimento).")
+        # In a real model, you would re-run the forecast with an adjusted 'rainfall_mm' regressor
+    else:
+        st.info("Use o simulador para testar o impacto de secas ou chuvas excessivas no preço do seu produto.")
+    
+    if farm_size == 'Pequena (até 4 módulos fiscais)':
+        st.markdown(
+            """
+            <div style="background-color: #fff8e1; padding: 10px; border-radius: 5px; border-left: 5px solid #ffc107; margin-top: 15px;">
+                <p style="font-size: 0.9em; margin: 0; color: #795548;">
+                **Foco Sustentabilidade (PRONAF):** Previsões ligadas a baixas chuvas ativam a busca por financiamento climático (ex: Custeio Agropecuário).
+                </p>
+            </div>
+            """, unsafe_allow_html=True
+        )
+    else:
+        st.markdown(
+            """
+            <div style="background-color: #fff8e1; padding: 10px; border-radius: 5px; border-left: 5px solid #ffc107; margin-top: 15px;">
+                <p style="font-size: 0.9em; margin: 0; color: #795548;">
+                **Foco ESG (Exportação):** Otimize o uso de água e fertilizantes com base no volume de chuvas previsto para atender metas de sustentabilidade para grandes compradores.
+                </p>
+            </div>
+            """, unsafe_allow_html=True
+        )
+
+# 4. Footer for College Fair Context
+st.markdown("---")
+st.markdown(
+    """
+    <div style="text-align: center; padding: 10px; font-size: 0.8em; color: #555;">
+    **AgriForecast Insights Demo** | Projeto de Pós-Graduação em Ciência de Dados. <br>
+    Tecnologias: Prophet (Forecasting), Streamlit (UI), Pandas (Data Prep). Dados simulados com base em padrões CEPEA/IBGE/INMET.
+    </div>
+    """, unsafe_allow_html=True
+)

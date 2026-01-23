@@ -1,0 +1,793 @@
+﻿dia,mes,ano,produto,regiao,quantidade (toneladas),preco (R$/saca)
+21,Janeiro,2015,Soja (grão),Mato Grosso,34988389.0,136.12
+5,Janeiro,2015,Soja (grão),Paraná,20271858.0,132.17
+14,Janeiro,2015,Milho 1ª safra,Mato Grosso,11798246.0,75.47
+17,Janeiro,2015,Milho 1ª safra,Paraná,8288508.0,74.97
+21,Janeiro,2015,Cana-de-açúcar,Mato Grosso,20139898.0,70.51
+19,Janeiro,2015,Cana-de-açúcar,Paraná,16706814.0,83.97
+6,Fevereiro,2015,Soja (grão),Mato Grosso,35056778.0,136.95
+7,Fevereiro,2015,Soja (grão),Paraná,20052944.0,132.56
+13,Fevereiro,2015,Milho 1ª safra,Mato Grosso,12060663.0,85.09
+26,Fevereiro,2015,Milho 1ª safra,Paraná,8181741.0,83.41
+13,Fevereiro,2015,Cana-de-açúcar,Mato Grosso,20007419.0,85.74
+20,Fevereiro,2015,Cana-de-açúcar,Paraná,17079201.0,79.43
+23,Março,2015,Soja (grão),Mato Grosso,34938968.0,149.33
+3,Março,2015,Soja (grão),Paraná,19805907.0,139.5
+15,Março,2015,Milho 1ª safra,Mato Grosso,12082554.0,74.07
+12,Março,2015,Milho 1ª safra,Paraná,7979946.0,87.55
+22,Março,2015,Cana-de-açúcar,Mato Grosso,19879451.0,78.35
+8,Março,2015,Cana-de-açúcar,Paraná,17097887.0,71.75
+21,Abril,2015,Soja (grão),Mato Grosso,34930283.0,147.12
+27,Abril,2015,Soja (grão),Paraná,19758655.0,135.73
+2,Abril,2015,Milho 1ª safra,Mato Grosso,12120651.0,76.69
+7,Abril,2015,Milho 1ª safra,Paraná,8294731.0,91.91
+11,Abril,2015,Cana-de-açúcar,Mato Grosso,20223481.0,74.89
+21,Abril,2015,Cana-de-açúcar,Paraná,16977746.0,68.49
+24,Maio,2015,Soja (grão),Mato Grosso,34975504.0,148.68
+14,Maio,2015,Soja (grão),Paraná,20118801.0,139.05
+5,Maio,2015,Milho 1ª safra,Mato Grosso,11795325.0,88.89
+28,Maio,2015,Milho 1ª safra,Paraná,7867753.0,89.8
+14,Maio,2015,Cana-de-açúcar,Mato Grosso,20103457.0,74.54
+15,Maio,2015,Cana-de-açúcar,Paraná,17280099.0,86.52
+1,Junho,2015,Soja (grão),Mato Grosso,34820116.0,147.04
+18,Junho,2015,Soja (grão),Paraná,20056699.0,132.79
+14,Junho,2015,Milho 1ª safra,Mato Grosso,11703402.0,93.85
+24,Junho,2015,Milho 1ª safra,Paraná,8224902.0,89.05
+17,Junho,2015,Cana-de-açúcar,Mato Grosso,20012942.0,86.04
+17,Junho,2015,Cana-de-açúcar,Paraná,16860263.0,74.35
+6,Julho,2015,Soja (grão),Mato Grosso,35256116.0,152.96
+20,Julho,2015,Soja (grão),Paraná,19720422.0,132.8
+12,Julho,2015,Milho 1ª safra,Mato Grosso,12022451.0,75.99
+8,Julho,2015,Milho 1ª safra,Paraná,7782582.0,72.14
+16,Julho,2015,Cana-de-açúcar,Mato Grosso,20258582.0,84.15
+5,Julho,2015,Cana-de-açúcar,Paraná,17276510.0,69.13
+17,Agosto,2015,Soja (grão),Mato Grosso,35143692.0,154.11
+18,Agosto,2015,Soja (grão),Paraná,19910922.0,147.82
+13,Agosto,2015,Milho 1ª safra,Mato Grosso,12091559.0,80.95
+17,Agosto,2015,Milho 1ª safra,Paraná,7959947.0,75.62
+11,Agosto,2015,Cana-de-açúcar,Mato Grosso,20280828.0,70.75
+8,Agosto,2015,Cana-de-açúcar,Paraná,16761733.0,70.72
+2,Setembro,2015,Soja (grão),Mato Grosso,34774299.0,142.85
+9,Setembro,2015,Soja (grão),Paraná,19924643.0,143.48
+24,Setembro,2015,Milho 1ª safra,Mato Grosso,12298782.0,84.41
+8,Setembro,2015,Milho 1ª safra,Paraná,8126833.0,74.76
+4,Setembro,2015,Cana-de-açúcar,Mato Grosso,20071507.0,75.59
+15,Setembro,2015,Cana-de-açúcar,Paraná,16756802.0,81.83
+21,Outubro,2015,Soja (grão),Mato Grosso,35122179.0,148.21
+26,Outubro,2015,Soja (grão),Paraná,19960735.0,134.79
+18,Outubro,2015,Milho 1ª safra,Mato Grosso,12142374.0,74.59
+15,Outubro,2015,Milho 1ª safra,Paraná,7779046.0,81.08
+28,Outubro,2015,Cana-de-açúcar,Mato Grosso,19802664.0,66.26
+18,Outubro,2015,Cana-de-açúcar,Paraná,16797793.0,88.16
+28,Novembro,2015,Soja (grão),Mato Grosso,35126156.0,142.14
+7,Novembro,2015,Soja (grão),Paraná,19761483.0,134.12
+1,Novembro,2015,Milho 1ª safra,Mato Grosso,11978085.0,93.16
+26,Novembro,2015,Milho 1ª safra,Paraná,8143555.0,87.41
+24,Novembro,2015,Cana-de-açúcar,Mato Grosso,20282765.0,81.55
+16,Novembro,2015,Cana-de-açúcar,Paraná,17011120.0,70.44
+2,Dezembro,2015,Soja (grão),Mato Grosso,35268532.0,131.52
+11,Dezembro,2015,Soja (grão),Paraná,20199948.0,142.57
+28,Dezembro,2015,Milho 1ª safra,Mato Grosso,11759642.0,94.02
+3,Dezembro,2015,Milho 1ª safra,Paraná,7771849.0,84.88
+22,Dezembro,2015,Cana-de-açúcar,Mato Grosso,20123389.0,68.0
+19,Dezembro,2015,Cana-de-açúcar,Paraná,16741672.0,80.48
+14,Janeiro,2016,Soja (grão),Mato Grosso,35385272.85,143.07
+9,Janeiro,2016,Soja (grão),Paraná,20085785.74,135.97
+13,Janeiro,2016,Milho 1ª safra,Mato Grosso,12065039.26,81.43
+25,Janeiro,2016,Milho 1ª safra,Paraná,7824625.74,81.46
+19,Janeiro,2016,Cana-de-açúcar,Mato Grosso,19896506.72,78.44
+17,Janeiro,2016,Cana-de-açúcar,Paraná,17127178.03,87.02
+8,Fevereiro,2016,Soja (grão),Mato Grosso,34934971.17,140.95
+18,Fevereiro,2016,Soja (grão),Paraná,20350917.19,130.2
+27,Fevereiro,2016,Milho 1ª safra,Mato Grosso,11892986.18,93.47
+5,Fevereiro,2016,Milho 1ª safra,Paraná,7873392.27,88.56
+5,Fevereiro,2016,Cana-de-açúcar,Mato Grosso,19982648.86,82.94
+7,Fevereiro,2016,Cana-de-açúcar,Paraná,17071806.77,77.64
+9,Março,2016,Soja (grão),Mato Grosso,34865692.92,132.31
+14,Março,2016,Soja (grão),Paraná,19852575.85,130.09
+25,Março,2016,Milho 1ª safra,Mato Grosso,12025145.57,74.04
+15,Março,2016,Milho 1ª safra,Paraná,8232596.43,84.02
+4,Março,2016,Cana-de-açúcar,Mato Grosso,19902313.51,78.64
+27,Março,2016,Cana-de-açúcar,Paraná,17348901.28,68.7
+5,Abril,2016,Soja (grão),Mato Grosso,35125710.31,152.47
+26,Abril,2016,Soja (grão),Paraná,19859607.7,152.47
+7,Abril,2016,Milho 1ª safra,Mato Grosso,11902351.34,78.84
+18,Abril,2016,Milho 1ª safra,Paraná,8236847.78,94.35
+24,Abril,2016,Cana-de-açúcar,Mato Grosso,20000601.27,86.62
+26,Abril,2016,Cana-de-açúcar,Paraná,17237183.74,65.62
+24,Maio,2016,Soja (grão),Mato Grosso,35245670.98,150.06
+28,Maio,2016,Soja (grão),Paraná,20059026.6,136.67
+26,Maio,2016,Milho 1ª safra,Mato Grosso,12197226.26,91.8
+28,Maio,2016,Milho 1ª safra,Paraná,7986922.2,90.41
+15,Maio,2016,Cana-de-açúcar,Mato Grosso,20006623.67,70.57
+22,Maio,2016,Cana-de-açúcar,Paraná,17099657.38,71.97
+3,Junho,2016,Soja (grão),Mato Grosso,35110034.13,138.78
+17,Junho,2016,Soja (grão),Paraná,20334236.27,138.28
+1,Junho,2016,Milho 1ª safra,Mato Grosso,12023130.34,74.46
+9,Junho,2016,Milho 1ª safra,Paraná,8198733.58,78.64
+26,Junho,2016,Cana-de-açúcar,Mato Grosso,20301359.19,67.89
+19,Junho,2016,Cana-de-açúcar,Paraná,16801748.3,82.72
+1,Julho,2016,Soja (grão),Mato Grosso,35346200.63,147.17
+24,Julho,2016,Soja (grão),Paraná,20005569.02,139.11
+3,Julho,2016,Milho 1ª safra,Mato Grosso,12162148.96,85.58
+22,Julho,2016,Milho 1ª safra,Paraná,8122751.22,82.68
+22,Julho,2016,Cana-de-açúcar,Mato Grosso,20194618.43,82.43
+18,Julho,2016,Cana-de-açúcar,Paraná,17191052.02,81.62
+13,Agosto,2016,Soja (grão),Mato Grosso,34976665.44,145.39
+10,Agosto,2016,Soja (grão),Paraná,19772911.01,137.6
+7,Agosto,2016,Milho 1ª safra,Mato Grosso,12112293.05,81.62
+15,Agosto,2016,Milho 1ª safra,Paraná,8330054.18,81.83
+26,Agosto,2016,Cana-de-açúcar,Mato Grosso,19887790.92,72.09
+22,Agosto,2016,Cana-de-açúcar,Paraná,17142105.27,67.33
+25,Setembro,2016,Soja (grão),Mato Grosso,35084287.49,135.62
+7,Setembro,2016,Soja (grão),Paraná,19800246.32,136.12
+16,Setembro,2016,Milho 1ª safra,Mato Grosso,11865266.92,81.39
+21,Setembro,2016,Milho 1ª safra,Paraná,8188683.67,82.36
+8,Setembro,2016,Cana-de-açúcar,Mato Grosso,19757619.71,87.32
+28,Setembro,2016,Cana-de-açúcar,Paraná,16913367.7,84.46
+8,Outubro,2016,Soja (grão),Mato Grosso,35297188.93,141.61
+18,Outubro,2016,Soja (grão),Paraná,19887188.86,141.41
+26,Outubro,2016,Milho 1ª safra,Mato Grosso,12334103.46,94.7
+20,Outubro,2016,Milho 1ª safra,Paraná,8229454.84,85.32
+24,Outubro,2016,Cana-de-açúcar,Mato Grosso,20258831.62,85.76
+18,Outubro,2016,Cana-de-açúcar,Paraná,16942562.09,83.59
+16,Novembro,2016,Soja (grão),Mato Grosso,35035254.58,151.0
+9,Novembro,2016,Soja (grão),Paraná,20347887.09,142.11
+8,Novembro,2016,Milho 1ª safra,Mato Grosso,11843214.8,87.84
+8,Novembro,2016,Milho 1ª safra,Paraná,8096976.21,92.33
+3,Novembro,2016,Cana-de-açúcar,Mato Grosso,19993564.92,74.58
+5,Novembro,2016,Cana-de-açúcar,Paraná,16863861.53,75.37
+11,Dezembro,2016,Soja (grão),Mato Grosso,35219378.89,131.56
+27,Dezembro,2016,Soja (grão),Paraná,19794091.48,151.42
+25,Dezembro,2016,Milho 1ª safra,Mato Grosso,12286204.23,70.15
+12,Dezembro,2016,Milho 1ª safra,Paraná,8172819.01,91.34
+27,Dezembro,2016,Cana-de-açúcar,Mato Grosso,20346182.7,85.0
+8,Dezembro,2016,Cana-de-açúcar,Paraná,17065251.36,75.9
+1,Janeiro,2017,Soja (grão),Mato Grosso,35266173.15,148.1
+27,Janeiro,2017,Soja (grão),Paraná,19988609.42,154.52
+18,Janeiro,2017,Milho 1ª safra,Mato Grosso,12197474.63,84.8
+22,Janeiro,2017,Milho 1ª safra,Paraná,8233769.33,73.39
+15,Janeiro,2017,Cana-de-açúcar,Mato Grosso,20081869.64,74.48
+7,Janeiro,2017,Cana-de-açúcar,Paraná,17206645.89,84.03
+13,Fevereiro,2017,Soja (grão),Mato Grosso,35266563.06,136.31
+3,Fevereiro,2017,Soja (grão),Paraná,20420870.09,131.3
+12,Fevereiro,2017,Milho 1ª safra,Mato Grosso,11887826.55,89.53
+21,Fevereiro,2017,Milho 1ª safra,Paraná,7818978.3,93.74
+7,Fevereiro,2017,Cana-de-açúcar,Mato Grosso,20074060.62,70.96
+16,Fevereiro,2017,Cana-de-açúcar,Paraná,17478477.42,88.69
+15,Março,2017,Soja (grão),Mato Grosso,35278728.4,134.19
+20,Março,2017,Soja (grão),Paraná,20054293.56,149.44
+6,Março,2017,Milho 1ª safra,Mato Grosso,12047704.32,84.47
+10,Março,2017,Milho 1ª safra,Paraná,8265664.48,79.92
+23,Março,2017,Cana-de-açúcar,Mato Grosso,20066378.76,67.55
+25,Março,2017,Cana-de-açúcar,Paraná,16955188.23,84.91
+19,Abril,2017,Soja (grão),Mato Grosso,35269290.66,143.32
+22,Abril,2017,Soja (grão),Paraná,20369829.34,146.19
+1,Abril,2017,Milho 1ª safra,Mato Grosso,12429945.1,72.64
+12,Abril,2017,Milho 1ª safra,Paraná,8363764.62,87.68
+14,Abril,2017,Cana-de-açúcar,Mato Grosso,20355272.91,89.14
+9,Abril,2017,Cana-de-açúcar,Paraná,17442860.98,84.37
+15,Maio,2017,Soja (grão),Mato Grosso,35131124.92,138.06
+8,Maio,2017,Soja (grão),Paraná,20003788.96,136.97
+15,Maio,2017,Milho 1ª safra,Mato Grosso,12306300.15,84.25
+22,Maio,2017,Milho 1ª safra,Paraná,7870732.29,82.36
+11,Maio,2017,Cana-de-açúcar,Mato Grosso,20031517.38,73.87
+9,Maio,2017,Cana-de-açúcar,Paraná,17124142.21,78.89
+17,Junho,2017,Soja (grão),Mato Grosso,35021461.01,136.03
+14,Junho,2017,Soja (grão),Paraná,20110169.46,147.27
+21,Junho,2017,Milho 1ª safra,Mato Grosso,12363839.79,89.82
+3,Junho,2017,Milho 1ª safra,Paraná,8251122.69,87.29
+10,Junho,2017,Cana-de-açúcar,Mato Grosso,20273178.6,76.83
+17,Junho,2017,Cana-de-açúcar,Paraná,17412125.18,73.27
+23,Julho,2017,Soja (grão),Mato Grosso,35174116.24,136.29
+4,Julho,2017,Soja (grão),Paraná,20226281.49,132.99
+18,Julho,2017,Milho 1ª safra,Mato Grosso,12126283.41,74.79
+24,Julho,2017,Milho 1ª safra,Paraná,8407592.77,84.92
+4,Julho,2017,Cana-de-açúcar,Mato Grosso,20223856.54,70.69
+6,Julho,2017,Cana-de-açúcar,Paraná,17388443.81,68.16
+2,Agosto,2017,Soja (grão),Mato Grosso,35516125.19,137.3
+5,Agosto,2017,Soja (grão),Paraná,20396782.14,132.56
+1,Agosto,2017,Milho 1ª safra,Mato Grosso,12364048.28,81.97
+11,Agosto,2017,Milho 1ª safra,Paraná,7863370.19,76.31
+28,Agosto,2017,Cana-de-açúcar,Mato Grosso,19924953.67,75.02
+3,Agosto,2017,Cana-de-açúcar,Paraná,16928536.39,68.79
+26,Setembro,2017,Soja (grão),Mato Grosso,35188648.34,132.13
+8,Setembro,2017,Soja (grão),Paraná,20235342.25,145.16
+26,Setembro,2017,Milho 1ª safra,Mato Grosso,12426903.94,79.51
+15,Setembro,2017,Milho 1ª safra,Paraná,8277236.5,77.63
+20,Setembro,2017,Cana-de-açúcar,Mato Grosso,19893689.85,88.69
+7,Setembro,2017,Cana-de-açúcar,Paraná,17157583.4,81.51
+6,Outubro,2017,Soja (grão),Mato Grosso,35397183.43,131.88
+1,Outubro,2017,Soja (grão),Paraná,20338100.81,137.28
+8,Outubro,2017,Milho 1ª safra,Mato Grosso,12122547.78,87.57
+15,Outubro,2017,Milho 1ª safra,Paraná,8036150.76,93.1
+26,Outubro,2017,Cana-de-açúcar,Mato Grosso,20114027.64,75.63
+18,Outubro,2017,Cana-de-açúcar,Paraná,16972195.51,87.71
+27,Novembro,2017,Soja (grão),Mato Grosso,34865292.81,134.15
+10,Novembro,2017,Soja (grão),Paraná,20472063.05,153.03
+15,Novembro,2017,Milho 1ª safra,Mato Grosso,12118758.59,87.49
+9,Novembro,2017,Milho 1ª safra,Paraná,8377856.55,80.94
+20,Novembro,2017,Cana-de-açúcar,Mato Grosso,20239391.73,83.36
+20,Novembro,2017,Cana-de-açúcar,Paraná,16915821.86,70.72
+22,Dezembro,2017,Soja (grão),Mato Grosso,34935506.38,154.99
+22,Dezembro,2017,Soja (grão),Paraná,19953612.4,149.08
+6,Dezembro,2017,Milho 1ª safra,Mato Grosso,12318991.13,92.9
+6,Dezembro,2017,Milho 1ª safra,Paraná,8396569.28,85.87
+16,Dezembro,2017,Cana-de-açúcar,Mato Grosso,20427889.84,73.7
+11,Dezembro,2017,Cana-de-açúcar,Paraná,16941049.32,86.44
+11,Janeiro,2018,Soja (grão),Mato Grosso,35438330.82,137.21
+13,Janeiro,2018,Soja (grão),Paraná,20592073.85,130.92
+3,Janeiro,2018,Milho 1ª safra,Mato Grosso,12234461.12,72.9
+25,Janeiro,2018,Milho 1ª safra,Paraná,8456595.01,90.62
+1,Janeiro,2018,Cana-de-açúcar,Mato Grosso,20546788.49,76.55
+2,Janeiro,2018,Cana-de-açúcar,Paraná,17244372.81,80.57
+16,Fevereiro,2018,Soja (grão),Mato Grosso,35024216.1,135.09
+18,Fevereiro,2018,Soja (grão),Paraná,20153463.17,140.95
+23,Fevereiro,2018,Milho 1ª safra,Mato Grosso,11966601.83,94.33
+20,Fevereiro,2018,Milho 1ª safra,Paraná,8177906.3,77.77
+1,Fevereiro,2018,Cana-de-açúcar,Mato Grosso,20050276.34,70.62
+27,Fevereiro,2018,Cana-de-açúcar,Paraná,17522966.17,88.68
+21,Março,2018,Soja (grão),Mato Grosso,35542298.36,153.32
+10,Março,2018,Soja (grão),Paraná,20228835.28,140.39
+16,Março,2018,Milho 1ª safra,Mato Grosso,12310828.71,81.42
+5,Março,2018,Milho 1ª safra,Paraná,8444989.64,88.66
+5,Março,2018,Cana-de-açúcar,Mato Grosso,20317032.46,84.32
+28,Março,2018,Cana-de-açúcar,Paraná,17451987.18,71.68
+1,Abril,2018,Soja (grão),Mato Grosso,35200939.36,150.94
+19,Abril,2018,Soja (grão),Paraná,20573161.56,151.63
+15,Abril,2018,Milho 1ª safra,Mato Grosso,12311147.34,78.31
+25,Abril,2018,Milho 1ª safra,Paraná,8427886.22,93.32
+28,Abril,2018,Cana-de-açúcar,Mato Grosso,20115681.57,79.29
+8,Abril,2018,Cana-de-açúcar,Paraná,17456171.11,66.09
+24,Maio,2018,Soja (grão),Mato Grosso,35333263.3,139.65
+22,Maio,2018,Soja (grão),Paraná,20169667.48,142.38
+2,Maio,2018,Milho 1ª safra,Mato Grosso,12198420.1,91.74
+28,Maio,2018,Milho 1ª safra,Paraná,8127364.46,83.15
+15,Maio,2018,Cana-de-açúcar,Mato Grosso,19974840.42,75.25
+21,Maio,2018,Cana-de-açúcar,Paraná,17131252.63,76.74
+9,Junho,2018,Soja (grão),Mato Grosso,35318045.7,146.25
+28,Junho,2018,Soja (grão),Paraná,20458398.74,139.5
+11,Junho,2018,Milho 1ª safra,Mato Grosso,12482081.8,91.81
+2,Junho,2018,Milho 1ª safra,Paraná,8214364.27,85.78
+10,Junho,2018,Cana-de-açúcar,Mato Grosso,20154151.22,75.85
+4,Junho,2018,Cana-de-açúcar,Paraná,17107877.73,76.09
+23,Julho,2018,Soja (grão),Mato Grosso,34922224.86,131.15
+26,Julho,2018,Soja (grão),Paraná,20209344.61,139.37
+5,Julho,2018,Milho 1ª safra,Mato Grosso,12310674.38,84.15
+26,Julho,2018,Milho 1ª safra,Paraná,8046786.65,71.97
+28,Julho,2018,Cana-de-açúcar,Mato Grosso,20164338.63,77.44
+19,Julho,2018,Cana-de-açúcar,Paraná,17337898.25,80.95
+15,Agosto,2018,Soja (grão),Mato Grosso,34891131.41,152.47
+15,Agosto,2018,Soja (grão),Paraná,20609439.26,133.95
+15,Agosto,2018,Milho 1ª safra,Mato Grosso,12360541.55,85.97
+14,Agosto,2018,Milho 1ª safra,Paraná,8464702.24,91.13
+7,Agosto,2018,Cana-de-açúcar,Mato Grosso,20566529.66,67.67
+13,Agosto,2018,Cana-de-açúcar,Paraná,17267505.45,89.82
+10,Setembro,2018,Soja (grão),Mato Grosso,35240297.5,136.86
+19,Setembro,2018,Soja (grão),Paraná,20079042.18,152.77
+24,Setembro,2018,Milho 1ª safra,Mato Grosso,12239310.55,89.39
+8,Setembro,2018,Milho 1ª safra,Paraná,8335130.6,75.48
+7,Setembro,2018,Cana-de-açúcar,Mato Grosso,20112436.88,80.71
+21,Setembro,2018,Cana-de-açúcar,Paraná,17299060.75,84.72
+2,Outubro,2018,Soja (grão),Mato Grosso,35096892.71,132.25
+10,Outubro,2018,Soja (grão),Paraná,20334098.59,134.39
+5,Outubro,2018,Milho 1ª safra,Mato Grosso,12392392.07,83.27
+9,Outubro,2018,Milho 1ª safra,Paraná,8288765.43,92.85
+16,Outubro,2018,Cana-de-açúcar,Mato Grosso,20361650.18,83.66
+11,Outubro,2018,Cana-de-açúcar,Paraná,17504096.81,89.07
+5,Novembro,2018,Soja (grão),Mato Grosso,35237570.36,151.5
+24,Novembro,2018,Soja (grão),Paraná,20398573.5,154.18
+26,Novembro,2018,Milho 1ª safra,Mato Grosso,12048444.03,89.77
+1,Novembro,2018,Milho 1ª safra,Paraná,8013062.06,81.37
+22,Novembro,2018,Cana-de-açúcar,Mato Grosso,20274658.78,79.61
+27,Novembro,2018,Cana-de-açúcar,Paraná,17362769.82,67.71
+8,Dezembro,2018,Soja (grão),Mato Grosso,35521832.45,138.2
+20,Dezembro,2018,Soja (grão),Paraná,19939415.13,145.89
+15,Dezembro,2018,Milho 1ª safra,Mato Grosso,12355122.03,86.23
+4,Dezembro,2018,Milho 1ª safra,Paraná,7892565.48,77.61
+16,Dezembro,2018,Cana-de-açúcar,Mato Grosso,20094073.92,87.18
+5,Dezembro,2018,Cana-de-açúcar,Paraná,17302308.0,81.76
+24,Janeiro,2019,Soja (grão),Mato Grosso,35649306.88,140.48
+24,Janeiro,2019,Soja (grão),Paraná,20527548.73,146.37
+27,Janeiro,2019,Milho 1ª safra,Mato Grosso,12444531.05,93.48
+9,Janeiro,2019,Milho 1ª safra,Paraná,8258997.21,75.43
+15,Janeiro,2019,Cana-de-açúcar,Mato Grosso,20544480.65,67.48
+22,Janeiro,2019,Cana-de-açúcar,Paraná,17353643.19,66.51
+9,Fevereiro,2019,Soja (grão),Mato Grosso,35048831.74,153.73
+27,Fevereiro,2019,Soja (grão),Paraná,20227918.56,146.04
+20,Fevereiro,2019,Milho 1ª safra,Mato Grosso,12223784.86,89.67
+8,Fevereiro,2019,Milho 1ª safra,Paraná,8768424.69,75.13
+27,Fevereiro,2019,Cana-de-açúcar,Mato Grosso,20322070.36,79.66
+27,Fevereiro,2019,Cana-de-açúcar,Paraná,17482821.54,84.36
+26,Março,2019,Soja (grão),Mato Grosso,35151142.93,136.93
+5,Março,2019,Soja (grão),Paraná,20742464.74,136.27
+6,Março,2019,Milho 1ª safra,Mato Grosso,11922208.43,73.3
+12,Março,2019,Milho 1ª safra,Paraná,8362284.09,84.72
+1,Março,2019,Cana-de-açúcar,Mato Grosso,19970702.78,68.17
+14,Março,2019,Cana-de-açúcar,Paraná,17094992.37,76.91
+25,Abril,2019,Soja (grão),Mato Grosso,35090203.47,141.3
+8,Abril,2019,Soja (grão),Paraná,20208004.01,148.18
+28,Abril,2019,Milho 1ª safra,Mato Grosso,12387130.98,81.45
+1,Abril,2019,Milho 1ª safra,Paraná,8381712.13,91.18
+14,Abril,2019,Cana-de-açúcar,Mato Grosso,20593635.2,82.81
+15,Abril,2019,Cana-de-açúcar,Paraná,16968231.03,73.05
+5,Maio,2019,Soja (grão),Mato Grosso,35169393.31,145.61
+19,Maio,2019,Soja (grão),Paraná,20376455.06,139.52
+20,Maio,2019,Milho 1ª safra,Mato Grosso,12505533.19,82.64
+14,Maio,2019,Milho 1ª safra,Paraná,8011708.11,91.32
+21,Maio,2019,Cana-de-açúcar,Mato Grosso,20718981.99,83.02
+7,Maio,2019,Cana-de-açúcar,Paraná,17237214.38,75.35
+27,Junho,2019,Soja (grão),Mato Grosso,35441315.65,148.24
+11,Junho,2019,Soja (grão),Paraná,20263835.48,139.36
+5,Junho,2019,Milho 1ª safra,Mato Grosso,12577087.73,71.68
+27,Junho,2019,Milho 1ª safra,Paraná,8340171.59,72.41
+24,Junho,2019,Cana-de-açúcar,Mato Grosso,20115682.0,78.91
+19,Junho,2019,Cana-de-açúcar,Paraná,17755086.88,73.24
+4,Julho,2019,Soja (grão),Mato Grosso,35434939.76,151.7
+24,Julho,2019,Soja (grão),Paraná,20178063.75,145.01
+12,Julho,2019,Milho 1ª safra,Mato Grosso,12425212.18,75.32
+22,Julho,2019,Milho 1ª safra,Paraná,8127775.61,78.75
+18,Julho,2019,Cana-de-açúcar,Mato Grosso,20269718.54,79.35
+26,Julho,2019,Cana-de-açúcar,Paraná,17585530.97,89.36
+27,Agosto,2019,Soja (grão),Mato Grosso,35642734.62,130.66
+22,Agosto,2019,Soja (grão),Paraná,20405866.45,130.72
+9,Agosto,2019,Milho 1ª safra,Mato Grosso,12408856.61,93.04
+12,Agosto,2019,Milho 1ª safra,Paraná,8012163.85,84.16
+13,Agosto,2019,Cana-de-açúcar,Mato Grosso,19914413.33,67.29
+17,Agosto,2019,Cana-de-açúcar,Paraná,17369068.52,76.34
+6,Setembro,2019,Soja (grão),Mato Grosso,35318556.99,149.42
+19,Setembro,2019,Soja (grão),Paraná,20105955.61,133.89
+25,Setembro,2019,Milho 1ª safra,Mato Grosso,12143252.22,76.8
+22,Setembro,2019,Milho 1ª safra,Paraná,8459200.73,80.35
+7,Setembro,2019,Cana-de-açúcar,Mato Grosso,20220927.81,73.63
+4,Setembro,2019,Cana-de-açúcar,Paraná,17460909.87,78.17
+10,Outubro,2019,Soja (grão),Mato Grosso,35288996.56,154.61
+2,Outubro,2019,Soja (grão),Paraná,20178520.87,153.63
+25,Outubro,2019,Milho 1ª safra,Mato Grosso,12171846.14,77.24
+4,Outubro,2019,Milho 1ª safra,Paraná,8314047.57,74.39
+13,Outubro,2019,Cana-de-açúcar,Mato Grosso,20271714.35,77.51
+27,Outubro,2019,Cana-de-açúcar,Paraná,17445146.41,66.8
+28,Novembro,2019,Soja (grão),Mato Grosso,35554862.22,130.47
+3,Novembro,2019,Soja (grão),Paraná,20586012.2,144.33
+23,Novembro,2019,Milho 1ª safra,Mato Grosso,12368423.33,72.88
+1,Novembro,2019,Milho 1ª safra,Paraná,8349405.9,90.03
+20,Novembro,2019,Cana-de-açúcar,Mato Grosso,20386661.01,67.2
+28,Novembro,2019,Cana-de-açúcar,Paraná,17350715.2,79.72
+17,Dezembro,2019,Soja (grão),Mato Grosso,35210513.07,148.65
+8,Dezembro,2019,Soja (grão),Paraná,20142880.96,131.91
+21,Dezembro,2019,Milho 1ª safra,Mato Grosso,12431211.52,74.85
+25,Dezembro,2019,Milho 1ª safra,Paraná,8126664.08,75.91
+5,Dezembro,2019,Cana-de-açúcar,Mato Grosso,20123835.83,80.06
+25,Dezembro,2019,Cana-de-açúcar,Paraná,17181941.76,69.43
+25,Janeiro,2020,Soja (grão),Mato Grosso,35637669.51,148.86
+25,Janeiro,2020,Soja (grão),Paraná,20723699.24,146.07
+20,Janeiro,2020,Milho 1ª safra,Mato Grosso,12360778.3,73.77
+3,Janeiro,2020,Milho 1ª safra,Paraná,8405098.43,89.91
+19,Janeiro,2020,Cana-de-açúcar,Mato Grosso,20454449.85,66.85
+15,Janeiro,2020,Cana-de-açúcar,Paraná,17140418.55,74.22
+10,Fevereiro,2020,Soja (grão),Mato Grosso,35025374.4,145.38
+17,Fevereiro,2020,Soja (grão),Paraná,20635034.99,153.86
+24,Fevereiro,2020,Milho 1ª safra,Mato Grosso,12729929.71,92.73
+19,Fevereiro,2020,Milho 1ª safra,Paraná,8497879.98,85.13
+17,Fevereiro,2020,Cana-de-açúcar,Mato Grosso,20025223.43,76.26
+26,Fevereiro,2020,Cana-de-açúcar,Paraná,17619770.73,89.56
+3,Março,2020,Soja (grão),Mato Grosso,35282760.6,130.98
+23,Março,2020,Soja (grão),Paraná,20535870.31,143.1
+20,Março,2020,Milho 1ª safra,Mato Grosso,12354461.48,92.95
+13,Março,2020,Milho 1ª safra,Paraná,8418310.76,86.97
+2,Março,2020,Cana-de-açúcar,Mato Grosso,20566595.77,66.65
+4,Março,2020,Cana-de-açúcar,Paraná,17528526.28,72.1
+24,Abril,2020,Soja (grão),Mato Grosso,35398303.5,138.33
+19,Abril,2020,Soja (grão),Paraná,20532257.84,137.76
+21,Abril,2020,Milho 1ª safra,Mato Grosso,12590388.99,73.22
+23,Abril,2020,Milho 1ª safra,Paraná,8599820.88,83.97
+21,Abril,2020,Cana-de-açúcar,Mato Grosso,20350665.78,81.75
+27,Abril,2020,Cana-de-açúcar,Paraná,17830806.45,67.34
+22,Maio,2020,Soja (grão),Mato Grosso,35448766.55,130.46
+10,Maio,2020,Soja (grão),Paraná,20196702.17,138.54
+25,Maio,2020,Milho 1ª safra,Mato Grosso,12332055.37,95.0
+5,Maio,2020,Milho 1ª safra,Paraná,8036919.03,82.69
+18,Maio,2020,Cana-de-açúcar,Mato Grosso,20786155.93,65.94
+11,Maio,2020,Cana-de-açúcar,Paraná,17387971.11,79.93
+5,Junho,2020,Soja (grão),Mato Grosso,35138478.88,148.03
+2,Junho,2020,Soja (grão),Paraná,20313411.44,154.24
+20,Junho,2020,Milho 1ª safra,Mato Grosso,12484706.17,75.85
+8,Junho,2020,Milho 1ª safra,Paraná,8515585.16,92.6
+7,Junho,2020,Cana-de-açúcar,Mato Grosso,20645264.38,89.61
+15,Junho,2020,Cana-de-açúcar,Paraná,17608197.42,77.57
+14,Julho,2020,Soja (grão),Mato Grosso,35495905.26,150.03
+5,Julho,2020,Soja (grão),Paraná,20303914.77,146.03
+28,Julho,2020,Milho 1ª safra,Mato Grosso,12156057.84,87.79
+17,Julho,2020,Milho 1ª safra,Paraná,8539376.42,72.1
+6,Julho,2020,Cana-de-açúcar,Mato Grosso,20547405.52,68.68
+14,Julho,2020,Cana-de-açúcar,Paraná,17169508.43,85.42
+12,Agosto,2020,Soja (grão),Mato Grosso,35707238.77,131.33
+17,Agosto,2020,Soja (grão),Paraná,20454508.6,154.86
+12,Agosto,2020,Milho 1ª safra,Mato Grosso,12323980.5,93.27
+27,Agosto,2020,Milho 1ª safra,Paraná,8537458.71,89.78
+5,Agosto,2020,Cana-de-açúcar,Mato Grosso,20410725.28,82.4
+5,Agosto,2020,Cana-de-açúcar,Paraná,17695433.46,76.22
+1,Setembro,2020,Soja (grão),Mato Grosso,35282270.0,136.4
+27,Setembro,2020,Soja (grão),Paraná,20513215.85,140.58
+25,Setembro,2020,Milho 1ª safra,Mato Grosso,12331019.63,73.05
+8,Setembro,2020,Milho 1ª safra,Paraná,8547248.22,71.57
+27,Setembro,2020,Cana-de-açúcar,Mato Grosso,20824151.75,65.41
+17,Setembro,2020,Cana-de-açúcar,Paraná,17280569.98,72.28
+1,Outubro,2020,Soja (grão),Mato Grosso,35398172.83,144.27
+6,Outubro,2020,Soja (grão),Paraná,20255520.52,143.09
+12,Outubro,2020,Milho 1ª safra,Mato Grosso,12478684.73,83.6
+26,Outubro,2020,Milho 1ª safra,Paraná,8876402.59,70.51
+28,Outubro,2020,Cana-de-açúcar,Mato Grosso,20493728.03,89.53
+9,Outubro,2020,Cana-de-açúcar,Paraná,17573366.64,84.71
+12,Novembro,2020,Soja (grão),Mato Grosso,35105149.37,149.29
+24,Novembro,2020,Soja (grão),Paraná,20342561.57,131.11
+18,Novembro,2020,Milho 1ª safra,Mato Grosso,12219012.9,90.76
+22,Novembro,2020,Milho 1ª safra,Paraná,8587625.16,85.79
+26,Novembro,2020,Cana-de-açúcar,Mato Grosso,20433852.03,65.92
+7,Novembro,2020,Cana-de-açúcar,Paraná,17126681.51,87.14
+11,Dezembro,2020,Soja (grão),Mato Grosso,35813766.39,139.96
+27,Dezembro,2020,Soja (grão),Paraná,20382830.28,130.92
+21,Dezembro,2020,Milho 1ª safra,Mato Grosso,12350755.37,91.55
+2,Dezembro,2020,Milho 1ª safra,Paraná,8594367.31,76.83
+26,Dezembro,2020,Cana-de-açúcar,Mato Grosso,20466660.67,83.58
+13,Dezembro,2020,Cana-de-açúcar,Paraná,17231506.65,77.41
+16,Janeiro,2021,Soja (grão),Mato Grosso,35660826.52,136.67
+3,Janeiro,2021,Soja (grão),Paraná,20371759.04,140.77
+27,Janeiro,2021,Milho 1ª safra,Mato Grosso,12334655.11,78.03
+3,Janeiro,2021,Milho 1ª safra,Paraná,8407401.55,77.66
+20,Janeiro,2021,Cana-de-açúcar,Mato Grosso,20459217.2,82.24
+12,Janeiro,2021,Cana-de-açúcar,Paraná,17524307.24,80.37
+14,Fevereiro,2021,Soja (grão),Mato Grosso,35131930.57,131.88
+21,Fevereiro,2021,Soja (grão),Paraná,20672989.91,150.03
+22,Fevereiro,2021,Milho 1ª safra,Mato Grosso,12049446.63,73.57
+20,Fevereiro,2021,Milho 1ª safra,Paraná,8724939.66,70.87
+3,Fevereiro,2021,Cana-de-açúcar,Mato Grosso,20437400.78,74.05
+19,Fevereiro,2021,Cana-de-açúcar,Paraná,17116435.96,81.98
+12,Março,2021,Soja (grão),Mato Grosso,35199186.42,144.35
+17,Março,2021,Soja (grão),Paraná,20445792.98,146.24
+8,Março,2021,Milho 1ª safra,Mato Grosso,12428221.63,88.39
+16,Março,2021,Milho 1ª safra,Paraná,8777473.73,72.94
+25,Março,2021,Cana-de-açúcar,Mato Grosso,20532890.09,70.36
+20,Março,2021,Cana-de-açúcar,Paraná,17592136.9,70.0
+5,Abril,2021,Soja (grão),Mato Grosso,35823357.62,134.32
+23,Abril,2021,Soja (grão),Paraná,20245708.37,150.26
+28,Abril,2021,Milho 1ª safra,Mato Grosso,12777856.84,87.74
+18,Abril,2021,Milho 1ª safra,Paraná,8514769.25,91.28
+23,Abril,2021,Cana-de-açúcar,Mato Grosso,20463137.62,84.84
+17,Abril,2021,Cana-de-açúcar,Paraná,17258378.98,84.8
+8,Maio,2021,Soja (grão),Mato Grosso,35346939.07,139.02
+19,Maio,2021,Soja (grão),Paraná,20695520.36,133.24
+3,Maio,2021,Milho 1ª safra,Mato Grosso,12389059.09,94.99
+24,Maio,2021,Milho 1ª safra,Paraná,8600508.25,89.23
+27,Maio,2021,Cana-de-açúcar,Mato Grosso,20347366.24,89.31
+21,Maio,2021,Cana-de-açúcar,Paraná,17464060.21,82.0
+12,Junho,2021,Soja (grão),Mato Grosso,35579683.61,145.99
+6,Junho,2021,Soja (grão),Paraná,20443835.19,140.82
+28,Junho,2021,Milho 1ª safra,Mato Grosso,12096790.17,82.95
+10,Junho,2021,Milho 1ª safra,Paraná,8357369.4,93.37
+8,Junho,2021,Cana-de-açúcar,Mato Grosso,20650194.08,87.37
+28,Junho,2021,Cana-de-açúcar,Paraná,17183689.75,80.88
+18,Julho,2021,Soja (grão),Mato Grosso,35389270.5,145.36
+3,Julho,2021,Soja (grão),Paraná,20358062.11,144.8
+19,Julho,2021,Milho 1ª safra,Mato Grosso,12368032.25,91.06
+19,Julho,2021,Milho 1ª safra,Paraná,7989524.27,72.03
+21,Julho,2021,Cana-de-açúcar,Mato Grosso,20587601.74,81.28
+25,Julho,2021,Cana-de-açúcar,Paraná,17246382.86,77.45
+21,Agosto,2021,Soja (grão),Mato Grosso,35518645.19,142.07
+26,Agosto,2021,Soja (grão),Paraná,20753345.67,137.44
+3,Agosto,2021,Milho 1ª safra,Mato Grosso,12436293.51,80.99
+16,Agosto,2021,Milho 1ª safra,Paraná,8519649.24,85.17
+11,Agosto,2021,Cana-de-açúcar,Mato Grosso,20688339.84,83.35
+28,Agosto,2021,Cana-de-açúcar,Paraná,17523861.87,68.27
+12,Setembro,2021,Soja (grão),Mato Grosso,35298531.46,137.98
+15,Setembro,2021,Soja (grão),Paraná,20470245.52,136.2
+4,Setembro,2021,Milho 1ª safra,Mato Grosso,12367100.54,91.6
+14,Setembro,2021,Milho 1ª safra,Paraná,8226626.73,90.34
+19,Setembro,2021,Cana-de-açúcar,Mato Grosso,20485196.65,84.08
+16,Setembro,2021,Cana-de-açúcar,Paraná,17907556.32,77.47
+10,Outubro,2021,Soja (grão),Mato Grosso,35273160.73,153.63
+17,Outubro,2021,Soja (grão),Paraná,20411892.71,135.38
+12,Outubro,2021,Milho 1ª safra,Mato Grosso,12258378.9,82.37
+27,Outubro,2021,Milho 1ª safra,Paraná,8747490.82,77.14
+1,Outubro,2021,Cana-de-açúcar,Mato Grosso,20798502.74,68.35
+9,Outubro,2021,Cana-de-açúcar,Paraná,17712045.87,74.15
+13,Novembro,2021,Soja (grão),Mato Grosso,35553662.69,134.87
+18,Novembro,2021,Soja (grão),Paraná,20483644.81,142.61
+25,Novembro,2021,Milho 1ª safra,Mato Grosso,12328513.4,73.22
+4,Novembro,2021,Milho 1ª safra,Paraná,8484629.78,83.95
+12,Novembro,2021,Cana-de-açúcar,Mato Grosso,20511110.28,80.06
+13,Novembro,2021,Cana-de-açúcar,Paraná,17227541.39,65.97
+23,Dezembro,2021,Soja (grão),Mato Grosso,35596615.54,142.98
+5,Dezembro,2021,Soja (grão),Paraná,20771551.05,133.49
+20,Dezembro,2021,Milho 1ª safra,Mato Grosso,12504936.42,94.77
+24,Dezembro,2021,Milho 1ª safra,Paraná,8697161.93,82.68
+17,Dezembro,2021,Cana-de-açúcar,Mato Grosso,20785791.12,72.49
+27,Dezembro,2021,Cana-de-açúcar,Paraná,17295314.74,81.85
+14,Janeiro,2022,Soja (grão),Mato Grosso,35334814.2,144.92
+9,Janeiro,2022,Soja (grão),Paraná,20760155.59,148.04
+19,Janeiro,2022,Milho 1ª safra,Mato Grosso,12798748.32,85.73
+20,Janeiro,2022,Milho 1ª safra,Paraná,8812437.43,73.69
+22,Janeiro,2022,Cana-de-açúcar,Mato Grosso,20230863.07,69.77
+15,Janeiro,2022,Cana-de-açúcar,Paraná,17314454.79,75.32
+7,Fevereiro,2022,Soja (grão),Mato Grosso,35704325.35,151.82
+24,Fevereiro,2022,Soja (grão),Paraná,20532134.18,142.97
+18,Fevereiro,2022,Milho 1ª safra,Mato Grosso,12663635.74,83.14
+11,Fevereiro,2022,Milho 1ª safra,Paraná,8997735.88,92.8
+11,Fevereiro,2022,Cana-de-açúcar,Mato Grosso,20563116.0,80.25
+7,Fevereiro,2022,Cana-de-açúcar,Paraná,17808667.94,78.95
+8,Março,2022,Soja (grão),Mato Grosso,35819302.91,149.28
+23,Março,2022,Soja (grão),Paraná,20608831.57,137.93
+12,Março,2022,Milho 1ª safra,Mato Grosso,12580614.05,77.19
+19,Março,2022,Milho 1ª safra,Paraná,8757046.46,92.39
+13,Março,2022,Cana-de-açúcar,Mato Grosso,20591882.38,72.26
+10,Março,2022,Cana-de-açúcar,Paraná,17597843.68,73.66
+15,Abril,2022,Soja (grão),Mato Grosso,35849695.35,135.35
+27,Abril,2022,Soja (grão),Paraná,20870921.64,147.4
+5,Abril,2022,Milho 1ª safra,Mato Grosso,12292071.89,76.06
+22,Abril,2022,Milho 1ª safra,Paraná,8723536.15,85.95
+2,Abril,2022,Cana-de-açúcar,Mato Grosso,20382447.86,82.93
+4,Abril,2022,Cana-de-açúcar,Paraná,17505611.51,65.13
+18,Maio,2022,Soja (grão),Mato Grosso,35693243.0,140.17
+16,Maio,2022,Soja (grão),Paraná,20456515.17,148.9
+10,Maio,2022,Milho 1ª safra,Mato Grosso,12221889.91,92.7
+3,Maio,2022,Milho 1ª safra,Paraná,8588787.29,83.38
+24,Maio,2022,Cana-de-açúcar,Mato Grosso,20495296.54,87.83
+6,Maio,2022,Cana-de-açúcar,Paraná,17398342.59,88.35
+2,Junho,2022,Soja (grão),Mato Grosso,35954694.21,149.7
+6,Junho,2022,Soja (grão),Paraná,20808028.9,151.92
+1,Junho,2022,Milho 1ª safra,Mato Grosso,12259611.64,93.21
+11,Junho,2022,Milho 1ª safra,Paraná,8709045.53,83.11
+5,Junho,2022,Cana-de-açúcar,Mato Grosso,20947348.45,71.82
+26,Junho,2022,Cana-de-açúcar,Paraná,17213469.19,83.28
+21,Julho,2022,Soja (grão),Mato Grosso,35319311.33,130.35
+11,Julho,2022,Soja (grão),Paraná,21018190.89,146.86
+7,Julho,2022,Milho 1ª safra,Mato Grosso,12503464.15,90.67
+17,Julho,2022,Milho 1ª safra,Paraná,8583942.93,86.73
+6,Julho,2022,Cana-de-açúcar,Mato Grosso,21030389.71,73.09
+8,Julho,2022,Cana-de-açúcar,Paraná,17386030.87,70.89
+25,Agosto,2022,Soja (grão),Mato Grosso,35475153.82,137.55
+24,Agosto,2022,Soja (grão),Paraná,20575069.31,146.34
+23,Agosto,2022,Milho 1ª safra,Mato Grosso,12236296.44,81.63
+6,Agosto,2022,Milho 1ª safra,Paraná,8733963.3,93.08
+23,Agosto,2022,Cana-de-açúcar,Mato Grosso,20534229.99,80.97
+10,Agosto,2022,Cana-de-açúcar,Paraná,17417401.59,70.48
+5,Setembro,2022,Soja (grão),Mato Grosso,35724860.86,148.69
+20,Setembro,2022,Soja (grão),Paraná,20765143.91,152.82
+25,Setembro,2022,Milho 1ª safra,Mato Grosso,12510030.91,89.05
+22,Setembro,2022,Milho 1ª safra,Paraná,8488501.15,83.14
+17,Setembro,2022,Cana-de-açúcar,Mato Grosso,20456005.03,87.93
+4,Setembro,2022,Cana-de-açúcar,Paraná,17588835.51,87.57
+7,Outubro,2022,Soja (grão),Mato Grosso,35457843.94,134.11
+28,Outubro,2022,Soja (grão),Paraná,20393277.26,147.01
+23,Outubro,2022,Milho 1ª safra,Mato Grosso,12401921.7,92.47
+15,Outubro,2022,Milho 1ª safra,Paraná,8908325.57,73.3
+14,Outubro,2022,Cana-de-açúcar,Mato Grosso,20296348.15,78.97
+22,Outubro,2022,Cana-de-açúcar,Paraná,17454699.6,74.9
+27,Novembro,2022,Soja (grão),Mato Grosso,35210174.66,144.46
+2,Novembro,2022,Soja (grão),Paraná,20284127.54,143.53
+2,Novembro,2022,Milho 1ª safra,Mato Grosso,12575737.37,94.65
+16,Novembro,2022,Milho 1ª safra,Paraná,8426499.53,74.5
+5,Novembro,2022,Cana-de-açúcar,Mato Grosso,20849644.5,74.36
+13,Novembro,2022,Cana-de-açúcar,Paraná,17627013.79,74.39
+22,Dezembro,2022,Soja (grão),Mato Grosso,36085417.85,133.32
+28,Dezembro,2022,Soja (grão),Paraná,20361894.14,154.82
+13,Dezembro,2022,Milho 1ª safra,Mato Grosso,12509658.82,90.87
+25,Dezembro,2022,Milho 1ª safra,Paraná,8305587.78,81.58
+24,Dezembro,2022,Cana-de-açúcar,Mato Grosso,20842661.39,74.48
+8,Dezembro,2022,Cana-de-açúcar,Paraná,17481580.74,68.88
+7,Janeiro,2023,Soja (grão),Mato Grosso,35738268.63,130.81
+22,Janeiro,2023,Soja (grão),Paraná,20304718.98,136.02
+3,Janeiro,2023,Milho 1ª safra,Mato Grosso,12119780.9,81.16
+22,Janeiro,2023,Milho 1ª safra,Paraná,8521143.21,76.12
+2,Janeiro,2023,Cana-de-açúcar,Mato Grosso,20523171.82,78.49
+25,Janeiro,2023,Cana-de-açúcar,Paraná,17631972.36,68.5
+10,Fevereiro,2023,Soja (grão),Mato Grosso,35504257.37,144.44
+25,Fevereiro,2023,Soja (grão),Paraná,20786661.42,135.92
+5,Fevereiro,2023,Milho 1ª safra,Mato Grosso,13197416.16,75.53
+10,Fevereiro,2023,Milho 1ª safra,Paraná,8779859.51,93.71
+24,Fevereiro,2023,Cana-de-açúcar,Mato Grosso,21051361.71,78.9
+2,Fevereiro,2023,Cana-de-açúcar,Paraná,18041934.75,84.65
+11,Março,2023,Soja (grão),Mato Grosso,35893727.38,133.73
+13,Março,2023,Soja (grão),Paraná,20701740.55,141.84
+28,Março,2023,Milho 1ª safra,Mato Grosso,12315583.51,90.14
+2,Março,2023,Milho 1ª safra,Paraná,8816667.01,83.93
+5,Março,2023,Cana-de-açúcar,Mato Grosso,20535970.19,70.08
+21,Março,2023,Cana-de-açúcar,Paraná,17542240.08,86.18
+3,Abril,2023,Soja (grão),Mato Grosso,35562540.74,131.29
+13,Abril,2023,Soja (grão),Paraná,20492618.03,151.84
+7,Abril,2023,Milho 1ª safra,Mato Grosso,13120973.4,75.43
+7,Abril,2023,Milho 1ª safra,Paraná,8925601.26,77.58
+1,Abril,2023,Cana-de-açúcar,Mato Grosso,20354810.97,89.05
+4,Abril,2023,Cana-de-açúcar,Paraná,18000186.71,87.86
+23,Maio,2023,Soja (grão),Mato Grosso,35621263.98,139.92
+8,Maio,2023,Soja (grão),Paraná,20670139.75,139.52
+18,Maio,2023,Milho 1ª safra,Mato Grosso,12758585.66,76.54
+17,Maio,2023,Milho 1ª safra,Paraná,9073639.65,72.47
+24,Maio,2023,Cana-de-açúcar,Mato Grosso,20656261.87,87.86
+12,Maio,2023,Cana-de-açúcar,Paraná,17268206.09,79.06
+8,Junho,2023,Soja (grão),Mato Grosso,35511408.52,136.52
+19,Junho,2023,Soja (grão),Paraná,20828513.47,137.38
+7,Junho,2023,Milho 1ª safra,Mato Grosso,12629403.78,84.24
+8,Junho,2023,Milho 1ª safra,Paraná,8693513.95,76.43
+27,Junho,2023,Cana-de-açúcar,Mato Grosso,20847143.5,76.52
+24,Junho,2023,Cana-de-açúcar,Paraná,17706271.33,68.5
+18,Julho,2023,Soja (grão),Mato Grosso,35900993.45,154.76
+2,Julho,2023,Soja (grão),Paraná,20433265.43,153.63
+22,Julho,2023,Milho 1ª safra,Mato Grosso,12057742.21,80.31
+27,Julho,2023,Milho 1ª safra,Paraná,8494918.05,87.68
+1,Julho,2023,Cana-de-açúcar,Mato Grosso,20638140.59,74.33
+20,Julho,2023,Cana-de-açúcar,Paraná,17934822.3,81.48
+1,Agosto,2023,Soja (grão),Mato Grosso,35602671.91,140.28
+1,Agosto,2023,Soja (grão),Paraná,20646913.29,143.39
+10,Agosto,2023,Milho 1ª safra,Mato Grosso,12482459.26,90.15
+6,Agosto,2023,Milho 1ª safra,Paraná,8189482.51,83.11
+8,Agosto,2023,Cana-de-açúcar,Mato Grosso,20694865.52,71.31
+12,Agosto,2023,Cana-de-açúcar,Paraná,17607263.83,66.98
+13,Setembro,2023,Soja (grão),Mato Grosso,35568779.56,154.76
+8,Setembro,2023,Soja (grão),Paraná,20296515.77,146.34
+28,Setembro,2023,Milho 1ª safra,Mato Grosso,12469155.45,72.34
+13,Setembro,2023,Milho 1ª safra,Paraná,8760515.52,71.4
+1,Setembro,2023,Cana-de-açúcar,Mato Grosso,20556522.9,77.5
+14,Setembro,2023,Cana-de-açúcar,Paraná,17780102.63,79.15
+28,Outubro,2023,Soja (grão),Mato Grosso,36197072.44,152.98
+8,Outubro,2023,Soja (grão),Paraná,20749622.92,141.89
+2,Outubro,2023,Milho 1ª safra,Mato Grosso,12905453.93,92.48
+19,Outubro,2023,Milho 1ª safra,Paraná,8629255.91,93.22
+11,Outubro,2023,Cana-de-açúcar,Mato Grosso,20247242.18,79.68
+25,Outubro,2023,Cana-de-açúcar,Paraná,17962885.07,88.22
+10,Novembro,2023,Soja (grão),Mato Grosso,35376121.16,144.17
+28,Novembro,2023,Soja (grão),Paraná,20835880.23,138.29
+25,Novembro,2023,Milho 1ª safra,Mato Grosso,12575673.91,82.52
+12,Novembro,2023,Milho 1ª safra,Paraná,8512685.72,75.8
+3,Novembro,2023,Cana-de-açúcar,Mato Grosso,20653952.36,89.22
+11,Novembro,2023,Cana-de-açúcar,Paraná,17325564.42,84.59
+15,Dezembro,2023,Soja (grão),Mato Grosso,35707081.21,143.83
+13,Dezembro,2023,Soja (grão),Paraná,20694917.69,132.14
+20,Dezembro,2023,Milho 1ª safra,Mato Grosso,12467463.87,87.83
+3,Dezembro,2023,Milho 1ª safra,Paraná,8589960.1,87.79
+21,Dezembro,2023,Cana-de-açúcar,Mato Grosso,20527285.21,72.92
+4,Dezembro,2023,Cana-de-açúcar,Paraná,17401814.07,76.12
+25,Janeiro,2024,Soja (grão),Mato Grosso,35393174.84,132.18
+14,Janeiro,2024,Soja (grão),Paraná,20964854.45,142.81
+4,Janeiro,2024,Milho 1ª safra,Mato Grosso,12450014.57,83.86
+20,Janeiro,2024,Milho 1ª safra,Paraná,8830780.53,91.59
+1,Janeiro,2024,Cana-de-açúcar,Mato Grosso,20676767.09,84.48
+24,Janeiro,2024,Cana-de-açúcar,Paraná,17963350.95,79.3
+6,Fevereiro,2024,Soja (grão),Mato Grosso,35731162.51,133.47
+10,Fevereiro,2024,Soja (grão),Paraná,20406275.89,131.58
+14,Fevereiro,2024,Milho 1ª safra,Mato Grosso,12573005.55,82.11
+3,Fevereiro,2024,Milho 1ª safra,Paraná,8578577.94,88.02
+16,Fevereiro,2024,Cana-de-açúcar,Mato Grosso,20692587.61,76.45
+5,Fevereiro,2024,Cana-de-açúcar,Paraná,17694266.76,73.31
+20,Março,2024,Soja (grão),Mato Grosso,35679069.77,141.01
+14,Março,2024,Soja (grão),Paraná,20789878.34,137.51
+20,Março,2024,Milho 1ª safra,Mato Grosso,12952648.82,81.98
+6,Março,2024,Milho 1ª safra,Paraná,9089133.73,77.29
+23,Março,2024,Cana-de-açúcar,Mato Grosso,20769889.77,73.15
+9,Março,2024,Cana-de-açúcar,Paraná,18059898.05,74.13
+19,Abril,2024,Soja (grão),Mato Grosso,35775989.04,134.5
+25,Abril,2024,Soja (grão),Paraná,20940116.39,153.57
+7,Abril,2024,Milho 1ª safra,Mato Grosso,12681169.57,90.78
+3,Abril,2024,Milho 1ª safra,Paraná,9078671.21,86.82
+5,Abril,2024,Cana-de-açúcar,Mato Grosso,20769778.95,71.32
+5,Abril,2024,Cana-de-açúcar,Paraná,17970273.2,66.85
+20,Maio,2024,Soja (grão),Mato Grosso,35825322.98,143.36
+28,Maio,2024,Soja (grão),Paraná,21128083.38,130.92
+12,Maio,2024,Milho 1ª safra,Mato Grosso,13128162.69,84.85
+3,Maio,2024,Milho 1ª safra,Paraná,8399034.99,86.44
+12,Maio,2024,Cana-de-açúcar,Mato Grosso,20226211.72,79.08
+21,Maio,2024,Cana-de-açúcar,Paraná,17966808.77,89.17
+11,Junho,2024,Soja (grão),Mato Grosso,36206681.08,132.65
+4,Junho,2024,Soja (grão),Paraná,20781773.63,148.67
+18,Junho,2024,Milho 1ª safra,Mato Grosso,12709741.17,81.14
+13,Junho,2024,Milho 1ª safra,Paraná,8918181.51,73.77
+1,Junho,2024,Cana-de-açúcar,Mato Grosso,20717378.18,75.4
+3,Junho,2024,Cana-de-açúcar,Paraná,17292126.92,73.71
+11,Julho,2024,Soja (grão),Mato Grosso,35604755.5,143.03
+12,Julho,2024,Soja (grão),Paraná,20862287.02,148.05
+15,Julho,2024,Milho 1ª safra,Mato Grosso,12604463.82,71.12
+23,Julho,2024,Milho 1ª safra,Paraná,8502604.39,86.2
+22,Julho,2024,Cana-de-açúcar,Mato Grosso,20891797.09,77.9
+18,Julho,2024,Cana-de-açúcar,Paraná,17762341.71,75.66
+15,Agosto,2024,Soja (grão),Mato Grosso,35651658.99,145.74
+6,Agosto,2024,Soja (grão),Paraná,20974269.79,139.89
+24,Agosto,2024,Milho 1ª safra,Mato Grosso,12709065.99,81.24
+14,Agosto,2024,Milho 1ª safra,Paraná,8565191.76,75.14
+25,Agosto,2024,Cana-de-açúcar,Mato Grosso,20632309.02,79.43
+26,Agosto,2024,Cana-de-açúcar,Paraná,17883866.12,74.14
+7,Setembro,2024,Soja (grão),Mato Grosso,35664533.3,146.77
+16,Setembro,2024,Soja (grão),Paraná,20768582.81,144.92
+20,Setembro,2024,Milho 1ª safra,Mato Grosso,12462412.68,78.7
+28,Setembro,2024,Milho 1ª safra,Paraná,8570567.62,90.34
+23,Setembro,2024,Cana-de-açúcar,Mato Grosso,20725309.64,81.8
+11,Setembro,2024,Cana-de-açúcar,Paraná,17465074.39,67.92
+12,Outubro,2024,Soja (grão),Mato Grosso,36094912.31,139.71
+20,Outubro,2024,Soja (grão),Paraná,20561613.45,140.58
+16,Outubro,2024,Milho 1ª safra,Mato Grosso,12699210.18,83.87
+16,Outubro,2024,Milho 1ª safra,Paraná,8464148.04,77.86
+15,Outubro,2024,Cana-de-açúcar,Mato Grosso,20882454.18,88.8
+16,Outubro,2024,Cana-de-açúcar,Paraná,17560898.99,89.1
+17,Novembro,2024,Soja (grão),Mato Grosso,35959218.23,147.12
+14,Novembro,2024,Soja (grão),Paraná,21036714.51,142.22
+3,Novembro,2024,Milho 1ª safra,Mato Grosso,12698327.42,77.3
+9,Novembro,2024,Milho 1ª safra,Paraná,8524579.26,74.21
+15,Novembro,2024,Cana-de-açúcar,Mato Grosso,20986641.33,78.74
+4,Novembro,2024,Cana-de-açúcar,Paraná,17753255.12,84.38
+27,Dezembro,2024,Soja (grão),Mato Grosso,36341816.41,150.57
+2,Dezembro,2024,Soja (grão),Paraná,21070008.97,143.66
+14,Dezembro,2024,Milho 1ª safra,Mato Grosso,12393294.84,77.44
+2,Dezembro,2024,Milho 1ª safra,Paraná,8749316.29,91.55
+3,Dezembro,2024,Cana-de-açúcar,Mato Grosso,20499218.33,84.39
+8,Dezembro,2024,Cana-de-açúcar,Paraná,17578775.28,86.53
+20,Janeiro,2025,Soja (grão),Mato Grosso,35780260.5,145.4
+26,Janeiro,2025,Soja (grão),Paraná,20482290.72,150.14
+19,Janeiro,2025,Milho 1ª safra,Mato Grosso,12675391.38,84.92
+6,Janeiro,2025,Milho 1ª safra,Paraná,8665771.89,77.23
+9,Janeiro,2025,Cana-de-açúcar,Mato Grosso,21401320.88,89.64
+22,Janeiro,2025,Cana-de-açúcar,Paraná,17894319.72,89.07
+26,Fevereiro,2025,Soja (grão),Mato Grosso,35491441.98,154.81
+28,Fevereiro,2025,Soja (grão),Paraná,20763853.02,136.24
+23,Fevereiro,2025,Milho 1ª safra,Mato Grosso,12617256.37,89.04
+22,Fevereiro,2025,Milho 1ª safra,Paraná,8563237.6,84.44
+9,Fevereiro,2025,Cana-de-açúcar,Mato Grosso,20995646.26,76.3
+21,Fevereiro,2025,Cana-de-açúcar,Paraná,17833294.9,75.07
+24,Março,2025,Soja (grão),Mato Grosso,35709579.55,141.37
+16,Março,2025,Soja (grão),Paraná,20364424.42,151.72
+28,Março,2025,Milho 1ª safra,Mato Grosso,13166897.22,85.87
+23,Março,2025,Milho 1ª safra,Paraná,8452985.18,89.89
+13,Março,2025,Cana-de-açúcar,Mato Grosso,20724776.95,85.62
+16,Março,2025,Cana-de-açúcar,Paraná,17612197.47,73.44
+19,Abril,2025,Soja (grão),Mato Grosso,35713388.4,149.71
+22,Abril,2025,Soja (grão),Paraná,20757977.22,132.49
+26,Abril,2025,Milho 1ª safra,Mato Grosso,12786433.74,73.11
+28,Abril,2025,Milho 1ª safra,Paraná,8705079.81,70.02
+14,Abril,2025,Cana-de-açúcar,Mato Grosso,20400174.57,87.05
+10,Abril,2025,Cana-de-açúcar,Paraná,17514511.97,67.33
+12,Maio,2025,Soja (grão),Mato Grosso,35690217.42,146.61
+21,Maio,2025,Soja (grão),Paraná,20648014.06,145.64
+24,Maio,2025,Milho 1ª safra,Mato Grosso,12905070.1,80.73
+3,Maio,2025,Milho 1ª safra,Paraná,8664097.43,75.34
+3,Maio,2025,Cana-de-açúcar,Mato Grosso,20443337.83,77.99
+15,Maio,2025,Cana-de-açúcar,Paraná,17467692.56,85.43
+28,Junho,2025,Soja (grão),Mato Grosso,35576446.15,141.94
+8,Junho,2025,Soja (grão),Paraná,20513857.94,132.58
+12,Junho,2025,Milho 1ª safra,Mato Grosso,12948581.2,79.57
+27,Junho,2025,Milho 1ª safra,Paraná,8842139.24,86.04
+22,Junho,2025,Cana-de-açúcar,Mato Grosso,20770560.45,79.08
+20,Junho,2025,Cana-de-açúcar,Paraná,18081493.17,73.78
+7,Julho,2025,Soja (grão),Mato Grosso,35761191.03,153.0
+20,Julho,2025,Soja (grão),Paraná,20877049.94,132.17
+4,Julho,2025,Milho 1ª safra,Mato Grosso,12341149.51,84.74
+13,Julho,2025,Milho 1ª safra,Paraná,8831474.51,77.86
+5,Julho,2025,Cana-de-açúcar,Mato Grosso,20386570.1,71.2
+20,Julho,2025,Cana-de-açúcar,Paraná,17878767.29,84.47
+23,Agosto,2025,Soja (grão),Mato Grosso,35437761.52,135.14
+20,Agosto,2025,Soja (grão),Paraná,20918398.05,137.39
+2,Agosto,2025,Milho 1ª safra,Mato Grosso,12978008.28,82.37
+4,Agosto,2025,Milho 1ª safra,Paraná,8367326.4,83.21
+1,Agosto,2025,Cana-de-açúcar,Mato Grosso,21221351.03,68.3
+28,Agosto,2025,Cana-de-açúcar,Paraná,18212485.64,74.14
+22,Setembro,2025,Soja (grão),Mato Grosso,35732110.25,153.86
+25,Setembro,2025,Soja (grão),Paraná,20229206.47,130.34
+7,Setembro,2025,Milho 1ª safra,Mato Grosso,12195267.49,93.72
+13,Setembro,2025,Milho 1ª safra,Paraná,9030675.48,89.18
+14,Setembro,2025,Cana-de-açúcar,Mato Grosso,20747879.51,81.01
+18,Setembro,2025,Cana-de-açúcar,Paraná,17883783.64,67.09
+3,Outubro,2025,Soja (grão),Mato Grosso,35722111.76,154.36
+5,Outubro,2025,Soja (grão),Paraná,20938823.14,144.66
+25,Outubro,2025,Milho 1ª safra,Mato Grosso,12836947.18,77.75
+14,Outubro,2025,Milho 1ª safra,Paraná,8934195.7,71.45
+3,Outubro,2025,Cana-de-açúcar,Mato Grosso,20961322.2,76.33
+20,Outubro,2025,Cana-de-açúcar,Paraná,17328200.9,67.99
+23,Novembro,2025,Soja (grão),Mato Grosso,35221670.44,134.1
+12,Novembro,2025,Soja (grão),Paraná,20790244.29,134.17
+5,Novembro,2025,Milho 1ª safra,Mato Grosso,12981640.11,88.32
+4,Novembro,2025,Milho 1ª safra,Paraná,8747926.23,78.38
+14,Novembro,2025,Cana-de-açúcar,Mato Grosso,20384558.48,71.57
+19,Novembro,2025,Cana-de-açúcar,Paraná,18122274.27,76.38
+12,Dezembro,2025,Soja (grão),Mato Grosso,35738774.29,134.17
+6,Dezembro,2025,Soja (grão),Paraná,20411995.86,152.36
+22,Dezembro,2025,Milho 1ª safra,Mato Grosso,12917721.7,88.52
+1,Dezembro,2025,Milho 1ª safra,Paraná,8148114.33,76.11
+16,Dezembro,2025,Cana-de-açúcar,Mato Grosso,20548556.2,69.47
+28,Dezembro,2025,Cana-de-açúcar,Paraná,17568030.86,70.61
