@@ -2,6 +2,9 @@
 
 Este projeto é uma plataforma de **Inteligência Preditiva** que integra dados históricos de preços (CEPEA), produção (IBGE) e variáveis meteorológicas para prever o mercado agrícola brasileiro. Utilizando Machine Learning, o sistema analisa como o clima impacta a produtividade e o valor de venda de commodities como Soja, Milho e Café.
 
+<img width="1350" height="599" alt="image" src="https://github.com/user-attachments/assets/f774fe99-2901-4b4a-aa89-9cbded6d34f9" />
+
+
 ## Como Funciona o Projeto
 
 O sistema está dividido em três camadas principais:
