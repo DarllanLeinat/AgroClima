@@ -1,74 +1,64 @@
-AgriForecast Insights - Pipeline de Dados
+# 🌱 AgroClima - Inteligência Preditiva para o Agronegócio
 
-Este projeto contém a base de código para o pipeline de dados do AgriForecast Insights. Ele é projetado para buscar, limpar e unificar dados agrícolas de múltiplas fontes brasileiras (IBGE, CEPEA, BR-DWGD, EMBRAPA) para treinar modelos de IA (Prophet, LSTM) para previsão de safras, preços e rendimento.
+Este projeto é uma plataforma de **Inteligência Preditiva** que integra dados históricos de preços (CEPEA), produção (IBGE) e variáveis meteorológicas para prever o mercado agrícola brasileiro. Utilizando Machine Learning, o sistema analisa como o clima impacta a produtividade e o valor de venda de commodities como Soja, Milho e Café.
 
-Estrutura do Projeto
+## 🚀 Como Funciona o Projeto
 
-streamlit run app.py
+O sistema está dividido em três camadas principais:
 
-/data_fetchers: Contém módulos Python para buscar dados de APIs específicas.
+1. **Pipeline de Dados (`data_pipeline.py`)**: Realiza a extração e limpeza de dados de arquivos CSV. Ele unifica séries temporais de preços, produção e clima em um banco de dados relacional **SQLite** via **SQLAlchemy**.
+2. **Motor de Treinamento (`model_trainer.py`)**: Utiliza o algoritmo **Prophet** (Meta) para modelagem de séries temporais. O diferencial técnico é o uso de **regressores externos** (precipitação e temperatura), permitindo que o modelo aprenda a relação causal entre eventos climáticos e flutuações de mercado.
+3. **Interface do Usuário (`app.py`)**: Um dashboard interativo construído em **Streamlit**. Ele permite que o produtor visualize projeções, intervalos de confiança e simule cenários de risco, como o impacto de secas no faturamento.
 
-ibge_fetcher.py: Busca dados de produção da API SIDRA do IBGE.
+## 🛠️ Tecnologias Utilizadas
 
-cepea_fetcher.py: Carrega dados de preços do CEPEA (atualmente de um CSV local).
+* **Linguagem:** Python.
+* **Machine Learning:** Prophet.
+* **Manipulação de Dados:** Pandas e NumPy.
+* **Banco de Dados:** SQLite e SQLAlchemy.
+* **Visualização:** Plotly e Streamlit.
 
-weather_fetcher.py: Busca dados climáticos do Google Earth Engine.
+## 📋 Pré-requisitos e Instalação
 
-embrapa_fetcher.py: Placeholder para a API da EMBRAPA (requer chave).
+Para rodar este projeto localmente, você precisará ter o Python instalado (versão 3.8 ou superior recomendada).
 
-data_pipeline.py: O script orquestrador principal. Executa os fetchers, mescla os dados e os salva em agriforecast.db.
+### 1. Clonar o repositório
 
-model_trainer.py: Um script de exemplo que carrega os dados do banco de dados e treina um modelo Prophet.
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio
 
-requirements.txt: As dependências Python.
+```
 
-Setup
+### 2. Instalar as dependências
 
-Crie um Ambiente Virtual (Recomendado)
+```bash
+pip install pandas numpy prophet plotly streamlit sqlalchemy
 
-python -m venv .venv
-source .venv/bin/activate  # No Windows: .venv\Scripts\activate
+```
 
+### 3. Preparar os dados
 
-Instale as Dependências
+Antes de iniciar o dashboard, é necessário processar os dados e criar o banco de dados unificado:
 
-pip install -r requirements.txt
-
-
-Autentique o Google Earth Engine (CRUCIAL)
-Para que o weather_fetcher.py funcione, você precisa se autenticar com o GEE:
-
-earthengine-api authenticate
-
-
-Siga as instruções no seu navegador para fazer login com uma conta do Google.
-
-Obtenha Chaves de API (quando aplicável)
-
-EMBRAPA: Registre-se no Portal EMBRAPA AgroAPI para obter uma chave de API. Adicione-a em data_fetchers/embrapa_fetcher.py.
-
-Prepare os Dados Locais (CEPEA)
-
-Crie um diretório chamado data/ na raiz do projeto.
-
-Vá ao site do CEPEA e baixe a série histórica de preços (ex: soja).
-
-IMPORTANTE: Salve seu arquivo como data/cepea_soja_precos.csv.
-
-CERTIFIQUE-SE de que seu CSV tenha uma coluna de região (ex: Regiao ou Estado) para que o novo filtro funcione.
-
-Como Executar
-
-Execute o Pipeline de Dados
-Este script buscará os dados de todas as fontes, irá uni-los (filtrando pela região "Mato Grosso") e salvar o resultado em um banco de dados SQLite chamado agriforecast.db.
-
+```bash
 python data_pipeline.py
 
+```
 
-Treine um Modelo de Exemplo
-Após a execução do pipeline, você pode treinar um modelo Prophet de exemplo:
+### 4. Executar a aplicação
 
-python model_trainer.py
+Após o processamento dos dados, inicie o dashboard:
 
+```bash
+streamlit run app.py
 
-Isso irá gerar um gráfico de previsão chamado forecast_plot.png.
+```
+
+## Funcionalidades Técnicas
+
+* **Decomposição de Séries:** Visualização detalhada de Tendência, Sazonalidade Anual e impacto de variáveis climáticas.
+* **Simulação de Risco:** Slider interativo para reduzir a precipitação prevista e observar a resposta do modelo no preço e volume.
+* **Intervalos de Confiança:** Gráficos que mostram a margem de erro estatística das previsões (yhat_lower e yhat_upper).
+
+---
