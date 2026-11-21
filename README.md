@@ -1,3 +1,11 @@
+## Autores
+
+- **Andre Colabone** - [GitHub](https://github.com/DomColabone)
+- **Darllan José Gloor Leinat** - [GitHub](https://github.com/DarllanLeinat)
+- **David Correia da Silva** - [GitHub](https://github.com/USERNAME_DAVID)
+
+**Orientador:** Prof. Rogério Morandi (UNIMAX - Centro Universitário Max Planck)
+
 # AgroClima Pro
 
 **Sistema de Apoio à Decisão (SAD) baseado em Inteligência Artificial para Previsão Climática e Estimativa de Preços Agrícolas**
