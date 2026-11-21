@@ -57,3 +57,17 @@ AgroClima/
 │   ├── agriforecast_unified_db.sqlite # Base consolidada (7.964 dias únicos por UF, 2005–2026)
 │   └── cepea_precos.csv               # Base local de contingência
 └── graficos_tcc/                      # Gráficos gerados na validação experimental
+
+Validação Experimental e ResultadosPara avaliar a generalização out-of-sample sem vazamento de dados, o script auditoria_tcc.py executa validação walk-forward com janela expansiva sobre a janela recente de 5 anos (22/10/2021 a 21/10/2026), em 4 cortes não sobrepostos de 90 dias (360 dias out-of-sample).Média consolidada (4 cortes de 90 dias)Cultura / UFBaseline Ingênuo (MAE / MAPE)Prophet Univariado (MAE / MAPE)Prophet + Chuva (MAE / MAPE)Soja - MTR$ 4,74 / 3,99%R$ 6,99 / 5,76%R$ 6,98 / 5,75%Soja - PRR$ 5,55 / 3,99%R$ 8,18 / 5,76%R$ 8,19 / 5,77%Milho - MTR$ 1,77 / 4,00%R$ 4,01 / 8,99%R$ 4,01 / 8,98%Açúcar - MTR$ 7,50 / 7,71%R$ 13,10 / 13,88%R$ 13,58 / 14,43%Comportamento por regime: na Soja (MT), o Prophet manteve MAPE entre 2,70% e 4,21% nos 3 primeiros cortes (superando o baseline no Fold 2: 3,73% vs. 5,23%), sendo impactado no Fold 4 por um choque exógeno de alta na cotação (pico de erro de 19,8% em 27/09/2026).Efeito climático local: a precipitação diária municipal apresentou impacto marginal (-0,01 p.p. na Soja/MT), evidenciando que o clima afeta cotações internacionais de forma acumulada e macro-regional.Qualidade e usabilidade: 5/5 testes unitários aprovados em pytest (calculadora_core.py) e avaliação preliminar positiva com 3 profissionais do agronegócio (nota 5/5 em usabilidade e na Calculadora do Talhão).Como Executar Localmente1. Instalar dependênciasBashgit clone [https://github.com/DarllanLeinat/AgroClima.git](https://github.com/DarllanLeinat/AgroClima.git)
+cd AgroClima
+python -m venv venv
+# Windows:
+venv\Scripts\activate
+# Linux/macOS:
+source venv/bin/activate
+
+pip install -r requirements.txt
+2. Atualizar a base de dados (opcional)Bashpython data_pipeline.py
+3. Executar a aplicaçãoBashstreamlit run Painel.py
+4. Rodar testes unitários e auditoria experimentalBashpytest
+python auditoria_tcc.py
