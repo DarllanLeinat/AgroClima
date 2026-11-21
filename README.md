@@ -4,6 +4,9 @@
 - **Darllan José Gloor Leinat** - [GitHub](https://github.com/DarllanLeinat)
 - **David Correia da Silva** - [GitHub](https://github.com/USERNAME_DAVID)
 
+Co-authored-by: Andre Colabone <https://github.com/DomColabone>
+Co-authored-by: David Correia da Silva <email-do-david@exemplo.com>
+
 **Orientador:** Prof. Rogério Morandi (UNIMAX - Centro Universitário Max Planck)
 
 # AgroClima Pro
