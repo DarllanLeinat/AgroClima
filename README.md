@@ -2,7 +2,7 @@
 
 - **Andre Colabone** - [GitHub](https://github.com/DomColabone)
 - **Darllan José Gloor Leinat** - [GitHub](https://github.com/DarllanLeinat)
-- **David Correia da Silva** - [GitHub]([[https://github.com/USERNAME_DAVID](https://github.com/davidsilvaunieduk)](https://github.com/davidsilvaunieduk)
+- **David Correia da Silva** - [GitHub](https://github.com/USERNAME_DAVID](https://github.com/davidsilvaunieduk)
 
 **Orientador:** Prof. Rogério Morandi (UNIMAX - Centro Universitário Max Planck)
 
